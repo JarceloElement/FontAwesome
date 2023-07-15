@@ -1,6 +1,5 @@
-tool
+@tool
 extends EditorPlugin
-
 
 func _enter_tree():
 	add_custom_type("FontAwesome", "Label",preload("FontAwesome.gd"), null )
